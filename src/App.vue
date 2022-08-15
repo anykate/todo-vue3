@@ -2,7 +2,7 @@
 </script>
 
 <template>
-	<div>
+	<div class="container mx-auto">
 		<router-link :to="{ name: 'HomeView' }">Home</router-link> |
 		<router-link :to="{ name: 'AboutView' }">About</router-link>
 	</div>
