@@ -76,7 +76,8 @@ const delToDo = (i) => {
 	if (!confirm("Are you sure?")) {
 		return
 	}
-	todos.value.splice(i, 1)
+	// todos.value.splice(i, 1)
+	todos.value = todos.value.filter((todo, index) => i !== index)
 }
 </script>
 
