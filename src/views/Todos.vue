@@ -3,7 +3,7 @@
 	<div class="flex flex-col justify-between space-y-4 mb-4 md:flex-row md:mx-3 md:space-y-0 md:space-x-4 md:mb-0">
 		<div class="flex flex-col flex-auto justify-between space-y-4">
 			<div v-for="(todo, index) in todos" :key="index">
-				<Card :bgColor="[todo.isComplete ? 'bg-green-100' : 'bg-white']">
+				<Card :bgColor="todo.isComplete ? 'bg-green-100' : 'bg-white'">
 					<template #card-title>
 						<div class="flex items-center justify-between">
 							<div class="flex flex-col justify-center">
