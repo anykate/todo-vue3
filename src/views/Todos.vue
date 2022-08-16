@@ -7,8 +7,16 @@
 					<template #card-title>
 						<div class="flex items-center justify-between">
 							<div class="flex flex-col justify-center">
-								<h2 class="text-2xl font-medium text-gray-800"
+								<!-- <h2 class="text-2xl font-medium text-gray-800"
 									:style="todo.isComplete && { textDecoration: 'line-through' }">
+									{{ todo.title }}
+								</h2> -->
+								<!-- <h2 class="text-2xl font-medium text-gray-800"
+									:class="{ 'line-through': todo.isComplete }">
+									{{ todo.title }}
+								</h2> -->
+								<h2 class="text-2xl font-medium text-gray-800"
+									:class="todo.isComplete && 'line-through'">
 									{{ todo.title }}
 								</h2>
 								<p class="text-gray-300 mt-2">{{ todo.createdAt.toLocaleString() }}</p>
