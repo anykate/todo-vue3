@@ -1,9 +1,7 @@
 <template>
-	<h1 class="text-3xl mt-2">Home</h1>
+    <h1 class="text-3xl mt-2">Home</h1>
 </template>
 
-<script setup>
-</script>
+<script setup></script>
 
-<style scoped>
-</style>
+<style scoped></style>
